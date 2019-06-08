@@ -15,30 +15,40 @@ body {
 
 header {
   display: flex;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
+  max-width: 70rem;
 }
 
 #toon {
   margin-right: 5rem;
+  max-width: 30%;
+}
+
+#davey-strus {
+  max-width: 50%;
 }
 
 #about {
   margin: 2rem auto;
-  width: 55rem;
+  max-width: 55rem;
   font-size: 3rem;
   font-weight: 300;
 }
 
 main {
   margin: 0 auto;
-  width: 65rem;
+  max-width: 65rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 main > div {
   flex: 1;
+  min-width: 10rem;
+  padding: 0 1rem;
 }
 
 h3 {
