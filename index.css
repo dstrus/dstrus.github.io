@@ -11,6 +11,7 @@ body {
   background-color: #d4e09b;
   font-family: Lato, helvetica, sans-serif;
   font-weight: 300;
+  margin: 1rem 0 0;
 }
 
 header {
@@ -38,27 +39,29 @@ header {
 }
 
 main {
+  background-color: #659588;
+  padding: 2rem;
+}
+
+article {
   margin: 0 auto;
+  padding: 2rem;
   max-width: 65rem;
+  background-color: #f3f3f3;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-main > div {
-  flex: 1;
-  min-width: 10rem;
-  padding: 0 1rem;
+  box-shadow: 0 1px 4px 5px 5px rgba(0, 0, 0, .3);
 }
 
 h3 {
-  margin-top: 3rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 h4 {
+  font-size: 1.5rem;
   margin-bottom: 0;
 }
 
@@ -68,4 +71,5 @@ h4 span {
 
 h4 + p {
   margin-top: 0;
+  font-weight: bold;
 }
